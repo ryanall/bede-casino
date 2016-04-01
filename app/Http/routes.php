@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::auth();
+
+Route::get('casinos', 'CasinosApiController@index');
+Route::resource('manage', 'CasinosManageController');

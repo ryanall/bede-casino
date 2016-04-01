@@ -1,0 +1,58 @@
+#casinoLocator { height: 562px }
+.no-padding { padding: 0px }
+.no-margin { margin: 0px }
+.float-right { float: right }
+label { font-size: 14px }
+
+.casino-pin-logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    float: left;
+}
+
+.casino-search-logo {
+    height: 55px;
+    width: 55px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: 5px;
+    float: left;
+}
+
+.casino-map-results {
+    height: 286px;
+    overflow: scroll;
+    margin: 0px;
+}
+
+.casino-view-btn {
+    margin-top: -37px;
+    margin-right: -3px;
+    float: right;
+}
+
+.add-casino {
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.logo { height: 40px }
+
+#mapSearchResults .list-group-item {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #772c91;
+    color: #ffffff;
+}
+
+.panel-default > .panel-heading .badge {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace BedeCasino\Http\Controllers\Auth;
 
-use App\User;
+use BedeCasino\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use BedeCasino\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = '/manage';
 
     /**
      * Create a new authentication controller instance.

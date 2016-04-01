@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace BedeCasino\Events;
 
 abstract class Event
 {
